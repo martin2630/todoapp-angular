@@ -6,7 +6,7 @@ import { Todo } from './todos/models/todo.models';
 import { filterType } from './filter/filter.actions';
 
 export interface AppState {
-  todos: Todo[],
+  todos: any[], // Todo[]
   filter: filterType
 }
 

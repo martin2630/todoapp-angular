@@ -11,13 +11,11 @@ import { appReducers } from './app.reducers';
 import { TodoModule } from './todos/todo.module';
 import { AppComponent } from './app.component';
 import { FooterComponent } from './footer/footer.component';
-import { FilterPipe } from './src/app/todos/filter.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     FooterComponent,
-    FilterPipe,
   ],
   imports: [
     BrowserModule,
