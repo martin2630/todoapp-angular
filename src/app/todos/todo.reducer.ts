@@ -4,8 +4,8 @@ import { Todo } from './models/todo.models';
  
 export const initialState = [
   new Todo("Salvar al mundo"),
-  new Todo("Aprender react y ganar 50 mil"),
-  new Todo("Aprender angular y aganr 50 mil"),
+  new Todo("Aprender react redux"),
+  new Todo("Aprender angular redux"),
 ];
  
 const _totoReducer = createReducer(
